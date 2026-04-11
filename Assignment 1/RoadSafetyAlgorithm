@@ -1,0 +1,14 @@
+"""NO 2- ROAD SAFETY ALGORITHM
+Initialise road, vehicles and traffic signs
+Student goes to the edge of the road
+Students looks left, right, and checks the traffic sign
+If there are vehicles coming
+Wait and keep checking the traffic sign and the road
+If the road is clear and the traffic signals pedestrian
+Walk straight across the road 
+While crossing the road
+Student keep watching the road for vehicles 
+And checking traffic sign for change
+Student reach the other side safely
+It ends"""
+

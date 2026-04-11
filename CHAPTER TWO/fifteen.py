@@ -11,4 +11,23 @@ if a <=b and a<= c:
         middle = c
         largest = b
 
+elif b <= a and b<= c:
+    smallest = b
+    if a <= c:
+        middle = a
+        largest = c
+    else: 
+        middle = c
+        largest = a
+
+else: 
+    smallest = c
+    if a <= b:
+        middle = a
+        largest = b
+    else: 
+        middle = b
+        largest = a
+
 print(smallest, middle, largest)
+

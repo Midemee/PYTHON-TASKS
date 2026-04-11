@@ -1,0 +1,26 @@
+""" No 4 - ATM ALGORITHM
+Insert the card in the Atm machine
+Atm request fo PIN
+Enter the PIN
+The Atm checks if the pin is correct
+If the PIN is incorrect
+The Atm display an error message (Incorrect pin)
+Otherwise, proceed to select from options
+The user selects withdrawal cash 
+Atm prompts user to enter the amount to withdraw
+User enter amount
+Atm system checks if there enough balance to withdraw
+otherwise it displays "insufficient funds" 
+and prompts user to enter another amount
+Atm system checks if there is enough cach available to dispense
+if there's insufficient cash in the Atm
+It displays a message cancel 
+if all checks pass
+it dispense the cash
+Subtract the withdrawn amount from the balance
+then dispaly an optional message for the balnce
+or print out an optional receipt of transaction
+then  asks user if there's any other transaction to perform
+If yes, the option returns to the main menu
+else, eject the card
+end of transaction"""

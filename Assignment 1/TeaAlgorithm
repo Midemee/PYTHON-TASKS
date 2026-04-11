@@ -1,0 +1,15 @@
+""" No 1- ALGORITHM FOR MAKING A CUP OF TEA
+Initialise, cup, water, milk, sugar, teabag and kettle
+Add water to kettle and boil
+While water is boiling, wait
+Add teabag to cup
+If user wants milk, add milk to it
+Otherwise skip this step
+If user wants sugar, add sugar to it
+Otherwise skip this step
+Add water to tea and stir
+If user wants keep the teabag in tea
+Else, remove the tea bag
+Serve the tea """
+
+
