@@ -1,0 +1,7 @@
+""" No 10- FLOWCHART
+Start
+Input mark (Asks the the student to enter exam score)
+Student enters score
+if score greater than or equal to 50 display 'pass' 
+else display 'faill'
+"""
