@@ -29,5 +29,5 @@ else:
         middle = b
         largest = a
 
-print(smallest, middle, largest)
+print("Smallest =" , smallest, "Middle = ", middle, "Largest = ", largest)
 

@@ -6,4 +6,4 @@ else:
 if 2 % 10 == 0:
     print("2 is this is a multiple of 10")
 else:
-    print(2 is not a multiple of 10")
+    print("2 is not a multiple of 10")
