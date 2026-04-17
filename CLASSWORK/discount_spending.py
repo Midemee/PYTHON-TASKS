@@ -15,7 +15,7 @@ if user_input >= 1000 and user_input <= 10000:
     print(f"The discounted price is = {discounted_price:.2f}")
     print(f"The discount is = {discount:.2f}")
 
-elif user_input >= 10000 and user_input <= 50000:
+elif user_input > 10000 and user_input <= 50000:
     discount = (10/100) * user_input
     discounted_price = user_input - discount
     print(f"The discounted price is = {discounted_price:.2f}")
