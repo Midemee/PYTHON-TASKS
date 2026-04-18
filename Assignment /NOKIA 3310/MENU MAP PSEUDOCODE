@@ -1,9 +1,53 @@
-NOKIA 3310- PROGRAM
+NOKIA 3310- MENU MAP PSEUDOCODE
+TOP LEVEL
+The phone has 13 menus with several sub menus as options.Choose from 13 menus and navigate forward and backwards.
 
+STEP WISE REFINEMENT
+Declare a boolean variable and set to true
+while it is true
+Print out the 13 menus
+Prompt user to select a menu from 0-13
+store userChoice in a variable
+Start the switch case and break with userChoice as condition
+In case 0, set boolean value to false
+declare 13 cases and break
+set the default message 
 
+case 1 PhoneBook
+Declare a boolean variable and set to true
+while it is true
+Print out the 10 menus
+Prompt user to select a menu from 0-10
+store userChoice in a variable
+Start the switch case and break with userChoice as condition
+In case 0, set boolean value to false
+declare 10 cases and break
+set the default message 
 
+case 1 PhoneBook
+sub menu 8. Options
 
+Declare a boolean variable and set to true
+while it is true
+Print out the 2 menus
+Prompt user to select a menu from 0-2
+store userChoice in a variable
+Start the switch case and break with userChoice as condition
+In case 0, set boolean value to false
+declare 2 cases and break
+set the default message
 
+case 2 Messages
+Declare a boolean variable and set to true
+while it is true
+Print out the 10 menus
+Prompt user to select a menu from 0-10
+store userChoice in a variable
+Start the switch case and break with userChoice as condition
+In case 0, set boolean value to false
+declare 10 cases and break
+set the default message 
 
-
-
+case 2 Messages
+Sub menu 7 Message Settings
+Repeat pattern for submenu 1 and 2
