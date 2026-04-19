@@ -1,0 +1,3 @@
+number = int(input("Enter a number: "))
+# formula is  e = 1 + 1/1! + 1/2! + 1/3! + ...
+#pending
