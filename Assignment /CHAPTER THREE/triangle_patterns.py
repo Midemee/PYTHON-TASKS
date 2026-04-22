@@ -16,7 +16,7 @@ for count in range(10, 0, -1):
         print(' ', end='')
     for number in range(count):
         print('*', end='')
-    print()
+    print()-
 
 print()
 
