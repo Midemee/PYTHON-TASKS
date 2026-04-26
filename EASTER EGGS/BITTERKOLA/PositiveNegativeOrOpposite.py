@@ -1,15 +1,15 @@
-a = int(input("Enter first integer: "))
-b = int(input("Enter second integer: "))
+first_nmuber = int(input("Enter first integer: "))
+second_number = int(input("Enter second integer: "))
 
-if a > 0 and b > 0:
-    print("Both positive. Sum:", a + b)
-elif a < 0 and b < 0:
-    print("Both negative. Product:", a * b)
+if first_number > 0 and second_number > 0:
+    print("Both positive. Sum:", first_number + second_number)
+elif first_number < 0 and second_number < 0:
+    print("Both negative. Product:", first_number * second_number)
 else:
     # Opposite signs: Difference (Larger - Smaller)
-    if a > b:
-        print("Opposite signs. Difference:", a - b)
+    if first_number > second_number:
+        print("Opposite signs. Difference:", first_number - second_number)
     else:
-        print("Opposite signs. Difference:", b - a)
+        print("Opposite signs. Difference:", second_number - first_number)
 print()
 

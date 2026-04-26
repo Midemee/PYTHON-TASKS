@@ -1,11 +1,11 @@
-val = int(input("Enter an integer: "))
+value = int(input("Enter an integer: "))
 
-if val % 3 == 0 and val % 5 == 0:
+if value % 3 == 0 and val % 5 == 0:
     print("FizzBuzz")
-elif val % 5 == 0:
+elif value % 5 == 0:
     print("Buzz")
-elif val % 3 == 0:
+elif value % 3 == 0:
     print("Fizz")
 else:
-    print(val)
+    print(value)
 print()
