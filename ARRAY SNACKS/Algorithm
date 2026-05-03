@@ -1,0 +1,18 @@
+ALGORITHM
+
+This program is a checkout system for the store that allows the cashier do the following:
+1. Enter each product details in the user’s cart - Product and quantity purchased.
+2. Displays customers invoice.
+3. Computes total, discount and VAT of 7.5% of total price.
+
+Flow:
+Prompts for cashier name and customer name
+Asks how many items, then loops to collect product name, unit price, and quantity for each
+Asks how much the customer paid
+Prints a formatted receipt matching the sample output
+Calculations:
+subtotal = sum of (price × qty) for all items
+discount = 8% of subtotal
+VAT = 7.5% of subtotal
+bill_total = subtotal − discount + VAT
+balance = amount paid − bill total
