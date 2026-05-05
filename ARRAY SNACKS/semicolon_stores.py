@@ -1,6 +1,5 @@
 vat_rate = 0.075  
 
-
 def get_customer_details():
     customer_name = input("Enter customer's name:")
     cashier_name = input("Enter cashier's name:")
